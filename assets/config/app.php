@@ -100,11 +100,12 @@
 
             'filename' => [
                 'theme' => [
-                    'app'      => 'theme.css',
+                    'app'      => 'app.css',
                     'about'    => 'about.css',
                     'login'    => 'login.css',
                     'file'     => 'file.css',
                     'mysql'    => 'mysql.css',
+                    'setting'  => 'setting.css',
                     'icomoon'  => 'style.css',
                     'markdown' => 'markdown.css'
                 ],
