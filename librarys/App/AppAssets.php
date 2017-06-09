@@ -175,7 +175,7 @@
             if ($cacheEnable) {
                 $timeNow              = time();
                 $cacheDirectory       = env('app.path.cache');
-                $cacheFilename        = md5($this->filename);
+                $cacheFilename        = md5($filepath);
                 $cacheFilepath        = FileInfo::filterPaths($cacheDirectory . SP . $cacheFilename . '.' . $cacheMime);
                 $cacheFiletime        = 0;
                 $fileResourceTime     = 0;

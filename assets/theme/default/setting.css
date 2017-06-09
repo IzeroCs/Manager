@@ -1,0 +1,112 @@
+ul.theme-list,
+ul.theme-list > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.theme-list {
+    background-color: #ffffff;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul.theme-list.no-box-shadow {
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+         -o-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+ul.theme-list > li {
+    border-bottom: 1px solid #efefef;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+}
+
+ul.theme-list > li:last-child {
+    border: 0;
+}
+
+ul.theme-list > li.empty {
+    margin: 0;
+    width: 100%;
+}
+
+ul.theme-list > li.empty span.icomoon {
+    margin-right: 5px;
+}
+
+ul.theme-list > li.empty span {
+    color: #ef5350;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
+ul.theme-list > li.theme-entry,
+ul.theme-list > li.empty {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media all and (max-width: 780px) {
+    ul.theme-list > li {
+        width: 100%;
+    }
+}
+
+ul.theme-list div.theme-preview {
+    display: block;
+    border: 1px solid #e0e0e0;
+}
+
+ul.theme-list div.theme-preview div {
+    display: block;
+}
+
+ul.theme-list div.theme-preview div.theme-header {
+    height: 55px;
+}
+
+ul.theme-list div.theme-preview div.theme-background {
+    height: 100px;
+}
+
+ul.theme-list > li.theme-entry div.theme-name {
+    display: block;
+    height: 45px;
+    overflow: hidden;
+    line-height: 45px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.theme-list > li.theme-entry div.theme-name,
+ul.theme-list > li.theme-entry div.theme-name span {
+    color: #707070;
+    font-weight: bold;
+}

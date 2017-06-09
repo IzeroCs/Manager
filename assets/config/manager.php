@@ -57,7 +57,7 @@
         ],
 
         'theme' => [
-            'directory' => 'default_dark',
+            'directory' => 'default',
         ],
 
         'check_update' => [
